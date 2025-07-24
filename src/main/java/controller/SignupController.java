@@ -58,7 +58,7 @@ public class SignupController implements Controller {
                 model.put("error", "모든 필드를 입력해주세요.");
                 return "/WEB-INF/views/signup.jsp";
             }
-            
+                     
             try {
                 // 사용자 정보 생성
                 UserDTO user = new UserDTO()
